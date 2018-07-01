@@ -1,0 +1,29 @@
+.neu  {
+
+  background-repeat: no-repeat;
+  background-position: 94% 4px;
+  -webkit-box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 18px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px 10px;
+  position: relative;
+  margin-left:  25%;
+  outline: none;
+  padding-left: 30px;
+  background-size: 50px;
+  width:  40%;
+  height: 30px;
+  margin-top: 5%;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #9b9b9b !important;
+  font-size: 18px !important;
+  border: none;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+
+
+}
