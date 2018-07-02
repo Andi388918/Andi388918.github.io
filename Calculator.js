@@ -4,6 +4,8 @@ $( document ).ready(function() {
 		
 		$( ".neu3" ).toggle(0);
 		
+		$('.click').toggle(0);
+				
 	});
 		
 	 $( ".button" ).click(function() {
