@@ -35,16 +35,19 @@ $( document ).ready(function() {
 		if(n2 == "n12" || n2 == "n2"){n2 = 1};
 								
 	    var s = $( ".select" ).val();
+		if(s == "opel"){n = n*0.9};
 		if(s == "audi"){n = n*0.7};
-		if(s == "audi1"){n = n*0.6};
+		if(s == "audi1"){n = n*0.3};
 		
 		var s = $( ".select1" ).val();
+		if(s == "opel"){n1 = n1*0.9};
 		if(s == "audi"){n1 = n1*0.7};
-		if(s == "audi1"){n1 = n1*0.6};
+		if(s == "audi1"){n1 = n1*0.3};
 		
 		var s = $( ".select2" ).val();
+		if(s == "opel"){n2 = n2*0.9};
 		if(s == "audi"){n2 = n2*0.7};
-		if(s == "audi1"){n2 = n2*0.6};
+		if(s == "audi1"){n2 = n2*0.3};
 		
 		var result = n + n1 + n2;
 
@@ -56,31 +59,24 @@ $( document ).ready(function() {
 		if(n2 && n == "n0"){result = n1};
 		
 		var s1 = $( ".select3" ).val();
-		if(s1 == "volvo1"){result = result + 3.25}
-		if(s1 == "saab"){result = result + 2.75}
-		if(s1 == "opel"){result = result + 2.25}
-		if(s1 == "audi"){result = result + 3.75}
+		if(s1 == "volvo1"){result = result + 2.5}
+		if(s1 == "saab"){result = result + 2}
+		if(s1 == "opel"){result = result + 1.5}
+		if(s1 == "audi"){result = result + 3.5}
 		
 		var s2 = $( ".select4" ).val();
-		if(s2 == "audi"){result = result + 1.75}
-		if(s2 == "saab"){result = result + 2}
-		if(s2 == "opel"){result = result + 2.25}
+		if(s2 == "audi"){result = result + 0.5}
+		if(s2 == "saab"){result = result + 0.6}
+		if(s2 == "opel"){result = result + 1}
 		
 		var s3 = $( ".select5" ).val();
-		if(s3 == "volvo1"){result = result + 1}
-		if(s3 == "saab"){result = result + 0.75}
-		
-		var s4 = $( ".select5" ).val();
-		if(s4 == "volvo1"){result = result + 1}
-		if(s4 == "saab"){result = result + 0.75}
+		if(s3 == "volvo1"){result = result + 0.25}
+		if(s3 == "saab"){result = result + 0.25}
 		
 		var s5 = $( ".select6" ).val();
-		if(s5 == "audi2"){result = result + 1.5}
-		if(s5 == "audi3"){result = result + 1.5}
-		if(s5 == "saab"){result = result + 0.8}
-		if(s5 == "audi"){result = result + 0.5}
-		if(s5 == "audi4"){result = result + 0.3}
-						
+		if(s5 == "audi2"){result = result + 0.5}
+		if(s5 == "audi3"){result = result + 0.5}
+								
 		if($(".neu3").is(":hidden")){				
 		$(".text").text(result);
 		}
@@ -112,16 +108,19 @@ $( document ).ready(function() {
 		if(n5 == "n12" || n5 == "n2"){n5 = 1};
 								
 	    var s6 = $( ".select7" ).val();
+		if(s6 == "opel"){n3 = n3*0.9};
 		if(s6 == "audi"){n3 = n3*0.7};
-		if(s6 == "audi1"){n3 = n3*0.6};
+		if(s6 == "audi1"){n3 = n3*0.3};
 		
 		var s7 = $( ".select8" ).val();
+		if(s7 == "opel"){n4 = n4*0.9};
 		if(s7 == "audi"){n4 = n4*0.7};
-		if(s7 == "audi1"){n4 = n4*0.6};
+		if(s7 == "audi1"){n4 = n4*0.3};
 		
 		var s8 = $( ".select9" ).val();
+		if(s8 == "opel"){n5 = n5*0.9};
 		if(s8 == "audi"){n5 = n5*0.7};
-		if(s8 == "audi1"){n5 = n5*0.6};
+		if(s8 == "audi1"){n5 = n5*0.3};
 		
 		var result1 = n3 + n4 + n5;
 
@@ -133,33 +132,30 @@ $( document ).ready(function() {
 		if(n5 && n3 == "n0"){result1 = n4};
 		
 		var s9 = $( ".select10" ).val();
-		if(s9 == "volvo1"){result1 = result1 + 3.25}
-		if(s9 == "saab"){result1 = result1 + 2.75}
-		if(s9 == "opel"){result1 = result1 + 2.25}
-		if(s9 == "audi"){result1 = result1 + 3.75}
+		if(s9 == "volvo1"){result1 = result1 + 2.5}
+		if(s9 == "saab"){result1 = result1 + 2}
+		if(s9 == "opel"){result1 = result1 + 1.5}
+		if(s9 == "audi"){result1 = result1 + 3.5}
 		
 		var s10 = $( ".select11" ).val();
-		if(s10 == "audi"){result1 = result1 + 1.75}
-		if(s10 == "saab"){result1 = result1 + 2}
-		if(s10 == "opel"){result1 = result1 + 2.25}
+		if(s10 == "audi"){result1 = result1 + 0.5}
+		if(s10 == "saab"){result1 = result1 + 0.6}
+		if(s10 == "opel"){result1 = result1 + 1}
 		
 		var s11 = $( ".select12" ).val();
-		if(s11 == "volvo1"){result1 = result1 + 1}
-		if(s11 == "saab"){result1 = result1 + 0.75}
+		if(s11 == "volvo1"){result1 = result1 + 0.25}
+		if(s11 == "saab"){result1 = result1 + 0.25}
 		
 		var s12 = $( ".select13" ).val();
-		if(s12 == "audi2"){result1 = result1 + 1.5}
-		if(s12 == "audi3"){result1 = result1 + 1.5}
-		if(s12 == "saab"){result1 = result1 + 0.8}
-		if(s12 == "audi"){result1 = result1 + 0.5}
-		if(s12 == "audi4"){result1 = result1 + 0.3}
-		
+		if(s12 == "audi2"){result1 = result1 + 0.5}
+		if(s12 == "audi3"){result1 = result1 + 0.5}
+				
 		var s13 = $( ".select14" ).val();
 		if(s13 == "audi"){result1 = result1 + 0}
-		if(s13 == "audi1"){result1 = result1 - 3.75}
-		if(s13 == "audi2"){result1 = result1 - 6}
-		if(s13 == "audi3"){result1 = result1 - 8}
-		if(s13 == "audi4"){result1 = result1 + 3.75}
+		if(s13 == "audi1"){result1 = result1 - 2}
+		if(s13 == "audi2"){result1 = result1 - 3}
+		if(s13 == "audi3"){result1 = result1 - 4}
+		if(s13 == "audi4"){result1 = result1 + 1.75}
 		
 		$(".text").text(result1 + result);
 		}
