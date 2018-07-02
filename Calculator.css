@@ -1,4 +1,4 @@
-.neu  {
+.neu, .neu1, .neu2, .neu4, .neu5, .neu6  {
 
   background-repeat: no-repeat;
   background-position: 94% 4px;
@@ -25,5 +25,12 @@
   -o-transition: width 0.5s ease-in-out;
   transition: width 0.5s ease-in-out;
 
+
+}
+
+.neu3 {
+
+display: none;
+margin-top: 10%;
 
 }
