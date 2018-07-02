@@ -34,3 +34,15 @@ display: none;
 margin-top: 10%;
 
 }
+
+.logo {
+float: left;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+background-image: url("hexagons.jpg");
+width: 20%;
+height: 40px;
+margin-top: 10%;
+
+}
